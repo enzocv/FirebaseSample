@@ -1,0 +1,40 @@
+[debug] [2017-12-14T15:08:52.040Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T15:08:52.044Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-12-14T15:08:52.044Z] CLI Version:   3.16.0
+[debug] [2017-12-14T15:08:52.044Z] Platform:      linux
+[debug] [2017-12-14T15:08:52.044Z] Node Version:  v8.9.3
+[debug] [2017-12-14T15:08:52.045Z] Time:          Thu Dec 14 2017 10:08:52 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:52.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T15:08:52.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T15:08:52.061Z] > authorizing via signed-in user
+[debug] [2017-12-14T15:08:52.064Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-14T15:08:52.064Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/wRards7e_PcHw7CPCv-7AHCYnqaRtZ9lGbaQzq4Z4eM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Dec 14 2017 10:08:52 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:52.657Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T15:08:52.716Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pruebaweb-5705c  
+  
+ Thu Dec 14 2017 10:08:52 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:53.758Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T15:08:53.760Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pruebaweb-5705c/tokens  
+  
+ Thu Dec 14 2017 10:08:53 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:54.631Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/media/enzocv/01D25E15924252F0/GitHub/FirebaseSample'...
+[info] 
+[debug] [2017-12-14T15:08:54.639Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pruebaweb-5705c  
+  
+ Thu Dec 14 2017 10:08:54 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:55.433Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T15:08:55.441Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/137118185794/clients/_:getWebAppConfig  
+  
+ Thu Dec 14 2017 10:08:55 GMT-0500 (-05)
+[debug] [2017-12-14T15:08:56.324Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Local server: http://localhost:5000
+

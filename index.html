@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Sample</title>
+
+</head>
+<body>
+    <h1>Prueba con Firebase</h1>
+
+    <input type="text" id="name" value="hola">
+    <input type="text" id="email" placeholder="Email">
+    <button id="save">Save</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyCxvNPFU1QYFruK0bpvGwWWtpqsfQ44d7E",
+            authDomain: "pruebaweb-5705c.firebaseapp.com",
+            databaseURL: "https://pruebaweb-5705c.firebaseio.com",
+            projectId: "pruebaweb-5705c",
+            storageBucket: "pruebaweb-5705c.appspot.com",
+            messagingSenderId: "137118185794"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="functions.js"></script>
+    <script src="addData.js"></script>
+
+</body>
+</html>
